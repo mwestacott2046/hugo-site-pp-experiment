@@ -1,0 +1,20 @@
+{ 
+    "accounts": [
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/testzengineer",
+            "fa_code": "fa-twitter-square"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/martin-westacott-489b616/",
+            "fa_code": "fa-linkedin"
+
+        },
+        {
+            "name": "Github",
+            "url": "https://github.com/mwestacott2046",
+            "fa_code": "fa-github-square"
+        }
+    ]
+}

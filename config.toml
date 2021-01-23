@@ -1,0 +1,36 @@
+baseURL = "http://hugo-dev-mwestacott.s3-website.eu-west-2.amazonaws.com/"
+languageCode = "en-us"
+title = "Martin's Portfolio"
+theme = "basic"
+disqusShortName = "pragprog-hugo-demo"
+
+[params]
+    author = "Martin Westacott"
+    description = "My Portfolio site"
+    
+    github_url = "https://api.github.com/users"
+    github_user = "mwestacott2046"
+
+[permalinks]
+    posts = "posts/:year/:month/:slug/"
+    year = "/posts/:slug"
+    month = "/posts/:slug"
+
+[taxonomies]
+    year = "year"
+    month = "month"
+    tag = "tags"
+    category = "categories"
+
+[related]
+    threshold = 80.0
+    includeNewer = false
+    toLower = false
+
+    [[related.indices]]
+    name = "keywords"
+    weight = 100.0
+
+    [[related.indices]]
+    name = "date"
+    weight = 10.0

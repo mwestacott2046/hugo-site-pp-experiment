@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+    <h2> {{ .Title }}</h2>
+
+    {{ .Content }}
+
+    <section class="projects">
+        <section class="projects">
+            {{ with .Site.GetPage "/opensource.md" }}
+                <h3> <a href="{{ .RelPermalink }}"> {{ .Title }} </a></h3>
+                <p>{{ .Summary }}</p>
+            {{ end }}
+        </section>
+
+        {{ range .Pages }}
+        <section class="projects">
+            <h3> <a href="{{ .RelPermalink }}"> {{ .Title }} </a></h3>
+            <p>{{ .Summary }}</p>
+        </section>
+        {{ end }}
+
+    </section>
+
+{{ end }}

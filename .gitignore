@@ -1,0 +1,5 @@
+# JS Libs
+node_modules
+
+# hugo output
+public

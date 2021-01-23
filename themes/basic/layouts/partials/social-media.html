@@ -1,0 +1,5 @@
+{{ range .Site.Data.socialmedia.accounts }}
+
+    <i class="fab {{ .fa_code }}"></i>
+    <a href="{{ .url }}">{{ .name }}</a> 
+{{ end }}

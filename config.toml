@@ -1,4 +1,4 @@
-baseURL = "http://hugo-dev-mwestacott.s3-website.eu-west-2.amazonaws.com/"
+baseURL = "https://adoring-sinoussi-760887.netlify.app"
 languageCode = "en-us"
 title = "Martin's Portfolio"
 theme = "basic"
